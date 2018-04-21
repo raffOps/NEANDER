@@ -26,6 +26,30 @@
 # Loading work.pc_vlg_sample_tst
 # Loading work.pc_vlg_check_tst
 # Loading altera_ver.PRIM_GDFF_LOW
-# Simulation passed !
-# ** Note: $finish    : pc.vwf.vt(302)
+# ERROR! Vector Mismatch for output port q[0] :: @time = 70000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000001
+# ERROR! Vector Mismatch for output port q[1] :: @time = 90000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000010
+# ERROR! Vector Mismatch for output port q[2] :: @time = 130000.000 ps
+#      Expected value = 00000000
+#      Real value = 00000100
+# ERROR! Vector Mismatch for output port q[3] :: @time = 210000.000 ps
+#      Expected value = 00000000
+#      Real value = 00001000
+# ERROR! Vector Mismatch for output port sAND5 :: @time = 860000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port q[4] :: @time = 870000.000 ps
+#      Expected value = 00000000
+#      Real value = 10011101
+# ERROR! Vector Mismatch for output port q[7] :: @time = 870000.000 ps
+#      Expected value = 00000000
+#      Real value = 10011101
+# ERROR! Vector Mismatch for output port q[6] :: @time = 910000.000 ps
+#      Expected value = 00000000
+#      Real value = 01001110
+#           8 mismatched vectors : Simulation failed !
+# ** Note: $finish    : pc.vwf.vt(338)
 #    Time: 1 us  Iteration: 0  Instance: /pc_vlg_vec_tst/tb_out
