@@ -38,12 +38,12 @@
 # ERROR! Vector Mismatch for output port q[3] :: @time = 210000.000 ps
 #      Expected value = 00000000
 #      Real value = 00001000
+# ERROR! Vector Mismatch for output port q[4] :: @time = 370000.000 ps
+#      Expected value = 00000000
+#      Real value = 00010000
 # ERROR! Vector Mismatch for output port sAND5 :: @time = 860000.000 ps
 #      Expected value = 1
 #      Real value = 0
-# ERROR! Vector Mismatch for output port q[4] :: @time = 870000.000 ps
-#      Expected value = 00000000
-#      Real value = 10011101
 # ERROR! Vector Mismatch for output port q[7] :: @time = 870000.000 ps
 #      Expected value = 00000000
 #      Real value = 10011101
